@@ -17,7 +17,7 @@
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
-            "text": "Welcome to our store",
+            "text": "50 YEAR FROST-PROOF GUARANTEE",
             "link": ""
           }
         }
@@ -28,7 +28,7 @@
       "settings": {
         "auto_rotate": false,
         "change_slides_speed": 5,
-        "color_scheme": "scheme-1",
+        "color_scheme": "scheme-7420bf99-a7c4-4d14-a88c-5c187055b85a",
         "show_line_separator": true,
         "show_social": false,
         "enable_country_selector": false,
