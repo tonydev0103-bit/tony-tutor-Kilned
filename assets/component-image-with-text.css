@@ -1,6 +1,9 @@
 .image-with-text .grid {
   margin-bottom: 0;
 }
+.image-with-text__content .image-with-text__text+.button {
+  opacity: 1;
+}
 
 .image-with-text .grid__item {
   position: relative;
@@ -332,7 +335,7 @@
 
 @media screen and (min-width: 990px) {
   .image-with-text__content {
-    padding: 6rem 7rem 7rem;
+    padding: 151px 231px 151px 116px;
   }
 }
 
@@ -360,7 +363,7 @@
 }
 
 .image-with-text__content .image-with-text__text + .button {
-  margin-top: 3rem;
+  margin-top: 6rem;
 }
 
 .image-with-text__heading {
@@ -370,6 +373,10 @@
 .image-with-text__text p {
   margin-top: 0;
   margin-bottom: 1rem;
+  font-size: 85px;
+  font-weight: 400;
+  font-family: Calluna;
+  line-height: 80px;
 }
 
 @media screen and (max-width: 749px) {
@@ -413,5 +420,65 @@
 @media screen and (min-width: 750px) {
   .multirow__inner {
     row-gap: var(--grid-desktop-vertical-spacing);
+  }
+}
+
+.image-with-text__text-item  a {
+  font-family: Inter;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 20px;
+  line-height: 100%;
+  line-height: 25px;
+  border-radius: 5px;
+  background-color: #31331D;
+  border: 1px solid #31331D;
+}
+
+@media (max-width: 1440px) {
+  .image-with-text__content {
+    padding: 100px 50px;
+  }
+  .image-with-text__text p {
+    font-size: 70px;
+    line-height: 60px;
+  }
+}
+
+@media (max-width: 768px) {
+  .image-with-text__grid {
+    display: flex;
+    flex-direction: column;
+  }
+  .image-with-text__grid .image-with-text__media-item {
+    width: 100%;
+  }
+  .image-with-text__grid .image-with-text__text-item {
+    width: 100%;
+  }
+  .image-with-text__content {
+    padding: 50px 50px;
+  }
+  .image-with-text__content .image-with-text__text+.button {
+    margin-top: 30px;
+  }
+  .image-with-text__text p {
+    font-size: 53px;
+  }
+}
+
+@media (max-width: 440px) {
+  .image-with-text__content {
+    padding: 35px 30px;
+  }
+  .image-with-text__text p {
+    color: #31331D;
+  }
+  .image-with-text__text-item a {
+    font-size: 18px;
+    line-height: 15px;
+  }
+  .image-with-text__text .button {
+    padding: 12px 13px;
   }
 }
