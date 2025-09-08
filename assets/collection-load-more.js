@@ -25,10 +25,19 @@ async function loadMoreProducts() {
 
   const productgrid = nextPageDoc.getElementById('product-grid');
   const new_products = productgrid.getElementsByClassName('grid__item');
+
+  const current_products = document.getElementsByClassName('grid__item');
+  const total_products = document.querySelector('.load-more_btn');
+  const total_products_length = total_products.dataset.collectionProductsCount;
+  // add current_products.length to current-item_count
+  document.querySelector('.current-item_count').innerHTML = "1 - " + current_products.length;
   const newUrl = document.getElementById('paginateNext');
-  const new_url = newUrl.dataset.nextUrl;
+  const new_url = newUrl.dataset.nextUrl; 
   if (new_url) {
     load_more_btn.style.display = 'flex';
+  } 
+  if (current_products.length >= total_products_length) {
+    load_more_btn.style.display = 'none';
   }
   next_url = new_url;
   for (let i = 0; i < new_products.length; i++) {

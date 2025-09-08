@@ -151,7 +151,7 @@
                             {{ 'products.facets.filter_and_operator_subtitle' | t }}
                           </span>
                         {%- endif -%}
-                        {{- 'icon-caret.svg' | inline_asset_content -}}
+                        {{- 'icon-caret-down.svg' | inline_asset_content -}}
                       </div>
                     </summary>
                     <div
@@ -307,7 +307,7 @@
                     <summary class="facets__summary caption-large focus-offset">
                       <div>
                         <span>{{ filter.label | escape }}</span>
-                        {{- 'icon-caret.svg' | inline_asset_content -}}
+                        {{- 'icon-caret-down.svg' | inline_asset_content -}}
                       </div>
                     </summary>
                     <div
@@ -443,6 +443,7 @@
     class="mobile-facets__wrapper{% if filter_type == 'horizontal' or filter_type == 'vertical' %} medium-hide large-up-hide{% endif %}"
     data-breakpoint="mobile"
   >
+    <span class="c-filter-heading">Filter</span>
     <details class="mobile-facets__disclosure disclosure-has-popup">
       <summary class="mobile-facets__open-wrapper focus-offset">
         <span class="mobile-facets__open{% if filter_type == 'drawer' and enable_filtering == false %} medium-hide large-up-hide{% endif %}">
@@ -851,7 +852,7 @@
                 {%- endfor -%}
               </select>
               <span class="svg-wrapper">
-                {{- 'icon-caret.svg' | inline_asset_content -}}
+                {{- 'icon-caret-down.svg' | inline_asset_content -}}
               </span>
             </div>
           </div>

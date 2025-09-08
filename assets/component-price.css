@@ -25,6 +25,12 @@
 
 .price__regular .price-item--regular {
   margin-right: 0;
+  font-family: Inter;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 18px;
+  letter-spacing: 1.6px;
+  vertical-align: middle;
 }
 
 .price:not(.price--show-badge) .price-item--last:last-of-type {

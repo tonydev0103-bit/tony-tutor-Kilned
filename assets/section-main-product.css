@@ -4,6 +4,7 @@ product-info {
 
 .product {
   margin: 0;
+  padding: 0 120px;
 }
 
 .product.grid {
@@ -67,7 +68,7 @@ product-info {
   }
 
   .product--large:not(.product--no-media) .product__info-wrapper {
-    padding: 0 0 0 4rem;
+    padding: 0 0 0 5.3rem;
     max-width: 35%;
     width: calc(35% - var(--grid-desktop-horizontal-spacing) / 2);
   }
@@ -179,6 +180,12 @@ product-info {
 
 .product-form__input .form__label {
   padding-left: 0;
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 14px;
+  letter-spacing: 0%;
+  vertical-align: middle;
 }
 
 .product-form__input .select {
@@ -248,6 +255,12 @@ a.product__text {
 .product__title {
   word-break: break-word;
   margin-bottom: 1.5rem;
+  font-family: Calluna;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  vertical-align: middle;
 }
 
 .product__title > * {

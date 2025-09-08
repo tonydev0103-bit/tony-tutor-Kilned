@@ -607,3 +607,14 @@
     clip-path: polygon(var(--shape--blob-5));
   }
 }
+
+
+@media (max-width: 1440px) {
+  .main-collection-product-grid .card__heading { 
+    font-size: 20px;
+}
+.price__sale {
+  font-size: 15px;
+}
+
+} 

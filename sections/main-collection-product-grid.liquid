@@ -184,11 +184,16 @@
             </ul>
 
             {%- if paginate.pages > 1 -%}
-              {% comment %} {% render 'pagination', paginate: paginate, anchor: '' %} {% endcomment %}
-               <div class="load-more">
-                <a class="load-more_btn text-center mt-12 button button--primary" onclick="loadMoreProducts()">Load More</a>
-                <div class="load-more_spinner hidden w-8 h-8 border-solid animate-spin"></div>
-               </div>
+                {% render 'pagination', paginate: paginate, anchor: '' %}
+                <div class="load-more">
+                  <a class="load-more_btn text-center mt-12 button button--primary" data-collection-products-count="{{ collection.products_count }}" onclick="loadMoreProducts()">Load More</a>
+                  <div class="load-more_spinner hidden w-8 h-8 border-solid animate-spin"></div>
+                </div>
+                <div class="load-more_page--text">
+                  <span >Viewing</span> 
+                  <span class="current-item_count">1 - {{ section.settings.products_per_page }}</span>
+                  <span> out of {{ collection.products_count }} products</span>
+                </div>
             {%- endif -%}
           </div>
         {%- endif -%}
