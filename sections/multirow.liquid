@@ -12,6 +12,12 @@
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
   }
+  @media screen and (max-width: 440px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top |  times: 0.7 }}px;
+      padding-bottom: {{ section.settings.padding_bottom| times: 0.7 }}px;
+    }
+  }
 {%- endstyle -%}
 
 {%- liquid
@@ -87,6 +93,9 @@
               {%- if block.settings.text -%}
                 <div class="image-with-text__text rte {{ section.settings.text_style }}">{{ block.settings.text }}</div>
               {%- endif -%}
+              {% if block.settings.subtitle %}
+                <p class="subtitle">{{ block.settings.subtitle }}</p>
+              {% endif %}
               {%- if block.settings.button_label != blank -%}
                 <a
                   {% if block.settings.button_link == blank %}
@@ -379,6 +388,11 @@
           "id": "text",
           "default": "t:sections.multirow.blocks.row.settings.text.default",
           "label": "t:sections.multirow.blocks.row.settings.text.label"
+        },
+        {
+          "type": "text",
+          "id": "subtitle",
+          "label": "Subtitle"
         },
         {
           "type": "text",

@@ -36,7 +36,7 @@
   }
 {%- endstyle -%}
 
-<div class="section-{{ section.id }}-padding gradient color-{{ section.settings.color_scheme }}">
+<div class="main-collection-product-grid section-{{ section.id }}-padding gradient color-{{ section.settings.color_scheme }}">
   {%- paginate collection.products by section.settings.products_per_page -%}
     {% comment %} Sort is the first tabbable element when filter type is vertical {% endcomment %}
     {%- if section.settings.enable_sorting and section.settings.filter_type == 'vertical' -%}
@@ -116,6 +116,7 @@
           %}
         </aside>
       {%- endif -%}
+      <div id="paginateNext" data-next-url="{{ paginate.next.url }}" style="display: none;">{{ paginate.next.url }}</div>
 
       <div
         class="product-grid-container{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
@@ -183,7 +184,11 @@
             </ul>
 
             {%- if paginate.pages > 1 -%}
-              {% render 'pagination', paginate: paginate, anchor: '' %}
+              {% comment %} {% render 'pagination', paginate: paginate, anchor: '' %} {% endcomment %}
+               <div class="load-more">
+                <a class="load-more_btn text-center mt-12 button button--primary" onclick="loadMoreProducts()">Load More</a>
+                <div class="load-more_spinner hidden w-8 h-8 border-solid animate-spin"></div>
+               </div>
             {%- endif -%}
           </div>
         {%- endif -%}

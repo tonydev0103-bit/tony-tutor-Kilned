@@ -2,7 +2,7 @@
   display: flex;
   position: relative;
   line-height: 1;
-  padding: 1.5rem 0;
+  padding: 2.1rem 0;
 }
 
 .accordion .summary__title {
@@ -32,7 +32,13 @@
   min-height: 1.6rem;
   margin: 0;
   word-break: break-word;
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 14px;
+  vertical-align: middle;
 }
+
 
 .accordion .svg-wrapper {
   align-self: center;
@@ -55,4 +61,47 @@
 
 .accordion__content img {
   max-width: 100%;
+}
+.accordion summary{
+  justify-content: space-between ;
+  align-items: center;
+}
+.more-read-btn {
+  text-align: center;
+  margin-top: 60px;
+}
+.more-read-btn a {
+  padding: 16px 59px;
+  border: 1px solid black;
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: unset;
+  color: black;
+  background-color: #ffff;
+  border-radius: 5px;
+}
+
+@media (max-width: 440px) {
+  .collapsible-content__heading {
+    font-family: Calluna;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 40px;
+    text-align: center;
+    vertical-align: middle;
+    margin-bottom: 0;
+  }
+  .accordion__title {
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    vertical-align: middle;
+  }
+  .more-read-btn a {
+    font-size: 18px;
+    padding: 16px 35px;
+  }
 }

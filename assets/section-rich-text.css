@@ -1,5 +1,6 @@
 .rich-text {
   z-index: 1;
+  border-bottom: 1px solid black;
 }
 
 .rich-text__wrapper {
@@ -29,17 +30,8 @@
   .rich-text__wrapper--right {
     justify-content: flex-end;
   }
-
-  .rich-text__blocks {
-    max-width: 50rem;
-  }
 }
 
-@media screen and (min-width: 990px) {
-  .rich-text__blocks {
-    max-width: 78rem;
-  }
-}
 
 .rich-text__blocks * {
   overflow-wrap: break-word;
@@ -83,4 +75,21 @@
 
 .rich-text__blocks.right .rich-text__buttons {
   justify-content: flex-end;
+}
+
+.rich-text__heading {
+  font-family: Calluna;
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 100%;
+  text-align: center;
+  color: #1A1A1A;
+}
+.rich-text__text {
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 160%;
+  text-align: center;
+  color: #1A1A1A;
 }

@@ -1,3 +1,17 @@
+.main-collection-product-grid .card__heading {
+  font-family: Calluna;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 100%;
+}
+.price__sale {
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 18px;
+  color: #1A1A1A;
+}
+
 .card-wrapper {
   color: inherit;
   height: 100%;

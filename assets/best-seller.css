@@ -1,0 +1,95 @@
+.best-seller .collection__title {
+    text-align: center;
+}
+.best-seller .slider--desktop:after {
+    padding: 0;
+}
+.best-seller .card__badge {
+    display: none;
+}
+.best-seller .full-unstyled-link {
+    font-family: Calluna;
+    font-weight: 400;
+    font-size: 25px;
+
+}
+.best-seller .price--on-sale .price__sale {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 1px;
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 18px;
+    align-items: center;
+}
+.best-seller .price .price-item {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    text-decoration: line-through;
+}
+.best-seller .slider-counter.caption {
+    display: none;
+}
+.best-seller .slider-button--prev {
+    position: absolute;
+    left: 20px;
+    top: 45%;
+}
+.best-seller .svg-wrapper {
+    width:38px;
+    height: 38px;
+}
+.best-seller .slider-button--next {
+    position: absolute;
+    right: 20px;
+    top: 45%;
+}
+.best-seller product-form {
+    display: none;
+}
+.best-seller .collection__view-all a{
+    margin-top: 20px;
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+    color: #31331D;
+    padding-left: 44px;
+    padding-right: 44px;
+    background-color: transparent;
+    border: 1px solid #31331D;
+}
+@media (max-width: 1920px) {
+    
+    .best-seller slider-component ul li {
+        width: 100% !important;
+        margin: 0 !important;
+    }
+}
+
+@media (max-width: 1024px) {
+    .best-seller .slider-buttons {
+        display: none;
+    }
+}
+
+@media (max-width: 425px) {
+    .best-seller .title {
+        font-size: 35px;
+        line-height: 36px;
+    }
+    .best-seller .full-unstyled-link {
+        font-size: 18px;
+    }
+    .best-seller .price--on-sale .price__sale, .best-seller .price .price-item {
+        font-size: 16px;
+    }
+    .best-seller .collection__view-all a {
+        margin: 0;
+        font-size: 18px;
+        padding: 10px 15px;
+    }
+}

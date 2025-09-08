@@ -102,7 +102,7 @@ body:has(.section-header .drawer-menu) .announcement-bar-section .page-width {
 
 @media screen and (min-width: 750px) {
   .page-width {
-    padding: 0 5rem;
+    padding: 0 12rem;
   }
 
   .header.page-width,
@@ -137,9 +137,39 @@ body:has(.section-header .drawer-menu) .announcement-bar-section .page-width {
 
   .page-width-desktop {
     max-width: var(--page-width);
-    padding: 0 5rem;
+    padding: 0 12rem;
   }
 }
+
+@media (max-width: 1440px) {
+  .page-width-desktop {
+    padding: 0 8rem;
+  }
+  .page-width {
+    padding: 0 80px;
+  }
+}
+@media (max-width: 1024px) {
+  .page-width-desktop {
+    padding: 0 4rem;
+  }
+  .page-width {
+    padding: 0 40px;
+  }
+}
+@media (max-width: 425px) {
+  .page-width-desktop {
+    padding: 0 2.7rem;
+  }
+  .page-width {
+    padding: 0 27px;
+  }
+}
+.load-more {
+  position: relative !important;
+  justify-content: center !important;
+  display: flex !important;
+  }
 
 .isolate {
   position: relative;

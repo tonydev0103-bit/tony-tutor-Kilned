@@ -11,10 +11,42 @@
   "sections": {
     "banner": {
       "type": "main-collection-banner",
+      "disabled": true,
       "settings": {
         "show_collection_description": true,
         "show_collection_image": false,
         "color_scheme": "scheme-1"
+      }
+    },
+    "rich_text_aFYXQE": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_nnNzrC": {
+          "type": "heading",
+          "settings": {
+            "heading": "Our Products",
+            "heading_size": "h1"
+          }
+        },
+        "text_k8Htfd": {
+          "type": "text",
+          "settings": {
+            "text": "<p>At Kilned Earth, we take pride in pecialising in high-quality terracotta pots and planters. Our thoughtfully curated collection celebrates Crete’s rich cultural heritage, with each unique piece showcasing natural beauty, ustainability, and frost resistance. These timeless pots are more than just decorative—they are a piece of living history that matures beautifully over time, enhancing both interiors and gardens. Carefully selected for scale, impact, and practicality, our extensive range offers something for every space. Whetheryou need a triking focal point, a harmonious group of pots, or a way to add height and interest to flower borders, terraces, or balconies, you’ll find the perfect fit with us.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_nnNzrC",
+        "text_k8Htfd"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": false,
+        "padding_top": 48,
+        "padding_bottom": 36
       }
     },
     "product-grid": {
@@ -22,6 +54,7 @@
       "settings": {
         "products_per_page": 16,
         "columns_desktop": 4,
+        "columns_mobile": "2",
         "color_scheme": "scheme-1",
         "image_ratio": "adapt",
         "image_shape": "default",
@@ -32,14 +65,64 @@
         "enable_filtering": true,
         "filter_type": "horizontal",
         "enable_sorting": true,
-        "columns_mobile": "2",
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "multirow_qcgNd8": {
+      "type": "multirow",
+      "blocks": {
+        "row_33arP8": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/DSC_1080_1.png",
+            "caption": "",
+            "heading": "The Founders",
+            "text": "<p>At Kilned Earth, we are a team of four passionate founders united by our shared love for craftsmanship, timeless design, and the beauty of terracotta.</p>",
+            "subtitle": "Alistair, Charlotte, Melissa and Christian",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_7fYXpw": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/DSC_0487_-_Copy.png",
+            "caption": "",
+            "heading": "Handcrafted in Crete",
+            "text": "<p>We celebrate the timeless motion of making – the spin of the wheel, the shaping of clay and the steady hand of skilled artisans perfecting their craft. With the continuity of heritage every pot tells its own unique story of lineage dedicated to creating beauty that lasts.</p>",
+            "subtitle": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_33arP8",
+        "row_7fYXpw"
+      ],
+      "name": "t:sections.multirow.presets.name",
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "image_layout": "alternate-right",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "padding_top": 72,
+        "padding_bottom": 72
       }
     }
   },
   "order": [
     "banner",
-    "product-grid"
+    "rich_text_aFYXQE",
+    "product-grid",
+    "multirow_qcgNd8"
   ]
 }

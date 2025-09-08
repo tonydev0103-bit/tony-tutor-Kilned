@@ -77,10 +77,175 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
+    },
+    "featured_collection_DkXBwd": {
+      "type": "featured-collection",
+      "name": "t:sections.featured-collection.presets.name",
+      "settings": {
+        "collection": "best-seller",
+        "products_to_show": 25,
+        "title": "Best Sellers",
+        "heading_size": "h0",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "columns_desktop": 3,
+        "enable_desktop_slider": true,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "standard",
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 72,
+        "padding_bottom": 72
+      }
+    },
+    "multirow_97KRGf": {
+      "type": "multirow",
+      "blocks": {
+        "row_4hpL8y": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/DSC_1080_1.png",
+            "caption": "",
+            "heading": "The Founders",
+            "text": "<p>At Kilned Earth, we are a team of four passionate founders united by our shared love for craftsmanship, timeless design, and the beauty of terracotta.</p>",
+            "subtitle": "Alistair, Charlotte, Melissa and Christian",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_Pi9Ayy": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/DSC_0487_-_Copy.png",
+            "caption": "",
+            "heading": "Handcrafted in Crete",
+            "text": "<p>We celebrate the timeless motion of making – the spin of the wheel, the shaping of clay and the steady hand of skilled artisans perfecting their craft. With the continuity of heritage every pot tells its own unique story of lineage dedicated to creating beauty that lasts.</p>",
+            "subtitle": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_4hpL8y",
+        "row_Pi9Ayy"
+      ],
+      "name": "t:sections.multirow.presets.name",
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "image_layout": "alternate-right",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "scheme-cb561391-1c49-4661-a5a3-07a9b6508125",
+        "row_color_scheme": "scheme-cb561391-1c49-4661-a5a3-07a9b6508125",
+        "padding_top": 76,
+        "padding_bottom": 76
+      }
+    },
+    "collapsible_content_rqzE6e": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_H8mMGY": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How do I cut SlatWall panels?",
+            "icon": "none",
+            "row_content": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard <br/>dummy text ever since the 1500s, when an unknown printer.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_WEVUcq": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can I install SlatWall panels in wet areas?",
+            "icon": "none",
+            "row_content": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer.Lorem Ipsum is simply dummy text of the printing and typesettingindustry lorem .<br/><br/></p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_NTQK3a": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Why is this Britain's best SlatWall?",
+            "icon": "none",
+            "row_content": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard <br/>dummy text ever since the 1500s, when an unknown printer.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_V7hWNF": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can I paint, stain or oil SlatWall panels?",
+            "icon": "none",
+            "row_content": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard <br/>dummy text ever since the 1500s, when an unknown printer.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_TdrQah": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How many SlatWall panels do I need?",
+            "icon": "none",
+            "row_content": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard <br/>dummy text ever since the 1500s, when an unknown printer.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_yrxnWd": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can Slatwall be fitted around or behind radiators?",
+            "icon": "none",
+            "row_content": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard <br/>dummy text ever since the 1500s, when an unknown printer.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_H8mMGY",
+        "collapsible_row_WEVUcq",
+        "collapsible_row_NTQK3a",
+        "collapsible_row_V7hWNF",
+        "collapsible_row_TdrQah",
+        "collapsible_row_yrxnWd"
+      ],
+      "name": "t:sections.collapsible_content.presets.name",
+      "settings": {
+        "caption": "",
+        "heading": "Frequently Asked Questions",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "container_color_scheme": "scheme-cb561391-1c49-4661-a5a3-07a9b6508125",
+        "color_scheme": "scheme-cb561391-1c49-4661-a5a3-07a9b6508125",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 60,
+        "padding_bottom": 60,
+        "btn_text": "More Frequently Asked Questions",
+        "btn_link": ""
+      }
     }
   },
   "order": [
     "featured_collection",
-    "image_with_text_RKgGzy"
+    "image_with_text_RKgGzy",
+    "featured_collection_DkXBwd",
+    "multirow_97KRGf",
+    "collapsible_content_rqzE6e"
   ]
 }
